@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param fontName    Font name.
  @discussion        Defaults to main bundle.
- @return Whether the font was successfully loaded or not.
+ @return            Whether the font was successfully loaded or not.
  */
 + (BOOL)hc_dynamicallyLoadFontNamed:(NSString *)fontName;
 
@@ -33,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param fontName    Font name.
  @param bundle      Source bundle.
  @discussion        Defaults to ttf.
- @return Whether the font was successfully loaded or not.
+ @return            Whether the font was successfully loaded or not.
  */
 + (BOOL)hc_dynamicallyLoadFontNamed:(NSString *)fontName inBundle:(NSBundle *)bundle;
 
@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param fontName    Font name.
  @param bundle      Source bundle.
  @param type        Path extension.
- @return Whether the font was successfully loaded or not.
+ @return            Whether the font was successfully loaded or not.
  */
 + (BOOL)hc_dynamicallyLoadFontNamed:(NSString *)fontName inBundle:(NSBundle *)bundle ofType:(NSString *)type;
 

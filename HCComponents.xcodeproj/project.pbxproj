@@ -19,6 +19,7 @@
 		774BFB101DB99D0C003FBC8B /* UIColor+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB0F1DB99D0C003FBC8B /* UIColor+HCComponents.m */; };
 		774BFB131DB99D1B003FBC8B /* UIFont+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB121DB99D1B003FBC8B /* UIFont+HCComponents.m */; };
 		774BFB171DB9A02E003FBC8B /* UIImage+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB161DB9A02E003FBC8B /* UIImage+HCComponents.m */; };
+		774BFB211DB9B5D1003FBC8B /* NSBundle+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB201DB9B5D1003FBC8B /* NSBundle+HCComponents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		774BFB121DB99D1B003FBC8B /* UIFont+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HCComponents.m"; sourceTree = "<group>"; };
 		774BFB151DB9A02E003FBC8B /* UIImage+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HCComponents.h"; sourceTree = "<group>"; };
 		774BFB161DB9A02E003FBC8B /* UIImage+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HCComponents.m"; sourceTree = "<group>"; };
+		774BFB1F1DB9B5D1003FBC8B /* NSBundle+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HCComponents.h"; sourceTree = "<group>"; };
+		774BFB201DB9B5D1003FBC8B /* NSBundle+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HCComponents.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		774BFAC51DB99CB4003FBC8B /* HCComponents */ = {
 			isa = PBXGroup;
 			children = (
+				774BFB1E1DB9B5C4003FBC8B /* NSBundle */,
 				774BFB141DB9A01E003FBC8B /* UIImage */,
 				774BFB0C1DB99CFA003FBC8B /* UIColor */,
 				774BFB0D1DB99CFA003FBC8B /* UIFont */,
@@ -178,6 +182,15 @@
 				774BFB161DB9A02E003FBC8B /* UIImage+HCComponents.m */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		774BFB1E1DB9B5C4003FBC8B /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				774BFB1F1DB9B5D1003FBC8B /* NSBundle+HCComponents.h */,
+				774BFB201DB9B5D1003FBC8B /* NSBundle+HCComponents.m */,
+			);
+			path = NSBundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +334,7 @@
 				774BFB0A1DB99CF2003FBC8B /* main.m in Sources */,
 				774BFB101DB99D0C003FBC8B /* UIColor+HCComponents.m in Sources */,
 				774BFB131DB99D1B003FBC8B /* UIFont+HCComponents.m in Sources */,
+				774BFB211DB9B5D1003FBC8B /* NSBundle+HCComponents.m in Sources */,
 				774BFB171DB9A02E003FBC8B /* UIImage+HCComponents.m in Sources */,
 				774BFB051DB99CF2003FBC8B /* AppDelegate.m in Sources */,
 			);

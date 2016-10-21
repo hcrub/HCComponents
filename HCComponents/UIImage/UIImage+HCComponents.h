@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param color   Color to generate.
  @discussion    Defaults to 1x1 size.
- @return Image  drawn with the color.
+ @return        Image drawn with the color.
  */
 + (UIImage *)hc_imageWithColor:(UIColor *)color;
 
@@ -39,9 +39,9 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Generates an image based on the source with the dimensions.
 
- @param image Image to scale.
+ @param image   Image to scale.
  @param newSize Size to scale to.
- @return Image scaled to the size.
+ @return        Image scaled to the size.
  */
 + (UIImage *)hc_imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
 

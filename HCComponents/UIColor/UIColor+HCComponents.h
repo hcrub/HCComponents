@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIColor (HCComponents)
 
 /**
- Returns a hexadecimal equivalent color string.
+ Generates a hexadecimal equivalent color string.
 
  @return A hexadecimal string object representation.
  */
