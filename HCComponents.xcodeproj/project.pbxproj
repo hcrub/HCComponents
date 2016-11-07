@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		774BC63F1DD01F9C00FB601B /* NSBundle+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC6321DD01F9C00FB601B /* NSBundle+HCComponents.m */; };
+		774BC6401DD01F9C00FB601B /* UIColor+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC6361DD01F9C00FB601B /* UIColor+HCComponents.m */; };
+		774BC6411DD01F9C00FB601B /* UIFont+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC6391DD01F9C00FB601B /* UIFont+HCComponents.m */; };
+		774BC6421DD01F9C00FB601B /* UIImage+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC63C1DD01F9C00FB601B /* UIImage+HCComponents.m */; };
+		774BC6451DD01FAC00FB601B /* UITextField+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC6441DD01FAC00FB601B /* UITextField+HCComponents.m */; };
+		774BC6481DD0215300FB601B /* UILabel+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC6471DD0215300FB601B /* UILabel+HCComponents.m */; };
+		774BC64B1DD021A500FB601B /* UIButton+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC64A1DD021A500FB601B /* UIButton+HCComponents.m */; };
 		774BFAE11DB99CB4003FBC8B /* HCComponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFAE01DB99CB4003FBC8B /* HCComponentsTests.m */; };
 		774BFAEC1DB99CB4003FBC8B /* HCComponentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFAEB1DB99CB4003FBC8B /* HCComponentsUITests.m */; };
 		774BFB051DB99CF2003FBC8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFAFB1DB99CF2003FBC8B /* AppDelegate.m */; };
@@ -16,10 +23,6 @@
 		774BFB091DB99CF2003FBC8B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 774BFB011DB99CF2003FBC8B /* Info.plist */; };
 		774BFB0A1DB99CF2003FBC8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB021DB99CF2003FBC8B /* main.m */; };
 		774BFB0B1DB99CF2003FBC8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB041DB99CF2003FBC8B /* ViewController.m */; };
-		774BFB101DB99D0C003FBC8B /* UIColor+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB0F1DB99D0C003FBC8B /* UIColor+HCComponents.m */; };
-		774BFB131DB99D1B003FBC8B /* UIFont+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB121DB99D1B003FBC8B /* UIFont+HCComponents.m */; };
-		774BFB171DB9A02E003FBC8B /* UIImage+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB161DB9A02E003FBC8B /* UIImage+HCComponents.m */; };
-		774BFB211DB9B5D1003FBC8B /* NSBundle+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB201DB9B5D1003FBC8B /* NSBundle+HCComponents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		774BC6311DD01F9C00FB601B /* NSBundle+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HCComponents.h"; sourceTree = "<group>"; };
+		774BC6321DD01F9C00FB601B /* NSBundle+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HCComponents.m"; sourceTree = "<group>"; };
+		774BC6351DD01F9C00FB601B /* UIColor+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HCComponents.h"; sourceTree = "<group>"; };
+		774BC6361DD01F9C00FB601B /* UIColor+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HCComponents.m"; sourceTree = "<group>"; };
+		774BC6381DD01F9C00FB601B /* UIFont+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HCComponents.h"; sourceTree = "<group>"; };
+		774BC6391DD01F9C00FB601B /* UIFont+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HCComponents.m"; sourceTree = "<group>"; };
+		774BC63B1DD01F9C00FB601B /* UIImage+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HCComponents.h"; sourceTree = "<group>"; };
+		774BC63C1DD01F9C00FB601B /* UIImage+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HCComponents.m"; sourceTree = "<group>"; };
+		774BC6431DD01FAC00FB601B /* UITextField+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HCComponents.h"; sourceTree = "<group>"; };
+		774BC6441DD01FAC00FB601B /* UITextField+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HCComponents.m"; sourceTree = "<group>"; };
+		774BC6461DD0215300FB601B /* UILabel+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HCComponents.h"; sourceTree = "<group>"; };
+		774BC6471DD0215300FB601B /* UILabel+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HCComponents.m"; sourceTree = "<group>"; };
+		774BC6491DD021A500FB601B /* UIButton+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HCComponents.h"; sourceTree = "<group>"; };
+		774BC64A1DD021A500FB601B /* UIButton+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HCComponents.m"; sourceTree = "<group>"; };
 		774BFAC31DB99CB4003FBC8B /* HCComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BFADC1DB99CB4003FBC8B /* HCComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BFAE01DB99CB4003FBC8B /* HCComponentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCComponentsTests.m; sourceTree = "<group>"; };
@@ -56,14 +73,6 @@
 		774BFB021DB99CF2003FBC8B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		774BFB031DB99CF2003FBC8B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		774BFB041DB99CF2003FBC8B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		774BFB0E1DB99D0C003FBC8B /* UIColor+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HCComponents.h"; sourceTree = "<group>"; };
-		774BFB0F1DB99D0C003FBC8B /* UIColor+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HCComponents.m"; sourceTree = "<group>"; };
-		774BFB111DB99D1B003FBC8B /* UIFont+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HCComponents.h"; sourceTree = "<group>"; };
-		774BFB121DB99D1B003FBC8B /* UIFont+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HCComponents.m"; sourceTree = "<group>"; };
-		774BFB151DB9A02E003FBC8B /* UIImage+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HCComponents.h"; sourceTree = "<group>"; };
-		774BFB161DB9A02E003FBC8B /* UIImage+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HCComponents.m"; sourceTree = "<group>"; };
-		774BFB1F1DB9B5D1003FBC8B /* NSBundle+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HCComponents.h"; sourceTree = "<group>"; };
-		774BFB201DB9B5D1003FBC8B /* NSBundle+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HCComponents.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +100,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		774BC6301DD01F9C00FB601B /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				774BC6311DD01F9C00FB601B /* NSBundle+HCComponents.h */,
+				774BC6321DD01F9C00FB601B /* NSBundle+HCComponents.m */,
+			);
+			path = NSBundle;
+			sourceTree = "<group>";
+		};
+		774BC6331DD01F9C00FB601B /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				774BC6491DD021A500FB601B /* UIButton+HCComponents.h */,
+				774BC64A1DD021A500FB601B /* UIButton+HCComponents.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		774BC6341DD01F9C00FB601B /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				774BC6351DD01F9C00FB601B /* UIColor+HCComponents.h */,
+				774BC6361DD01F9C00FB601B /* UIColor+HCComponents.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		774BC6371DD01F9C00FB601B /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				774BC6381DD01F9C00FB601B /* UIFont+HCComponents.h */,
+				774BC6391DD01F9C00FB601B /* UIFont+HCComponents.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		774BC63A1DD01F9C00FB601B /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				774BC63B1DD01F9C00FB601B /* UIImage+HCComponents.h */,
+				774BC63C1DD01F9C00FB601B /* UIImage+HCComponents.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		774BC63D1DD01F9C00FB601B /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				774BC6461DD0215300FB601B /* UILabel+HCComponents.h */,
+				774BC6471DD0215300FB601B /* UILabel+HCComponents.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		774BC63E1DD01F9C00FB601B /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				774BC6431DD01FAC00FB601B /* UITextField+HCComponents.h */,
+				774BC6441DD01FAC00FB601B /* UITextField+HCComponents.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
 		774BFABA1DB99CB4003FBC8B = {
 			isa = PBXGroup;
 			children = (
@@ -115,10 +187,13 @@
 		774BFAC51DB99CB4003FBC8B /* HCComponents */ = {
 			isa = PBXGroup;
 			children = (
-				774BFB1E1DB9B5C4003FBC8B /* NSBundle */,
-				774BFB141DB9A01E003FBC8B /* UIImage */,
-				774BFB0C1DB99CFA003FBC8B /* UIColor */,
-				774BFB0D1DB99CFA003FBC8B /* UIFont */,
+				774BC6301DD01F9C00FB601B /* NSBundle */,
+				774BC6331DD01F9C00FB601B /* UIButton */,
+				774BC6341DD01F9C00FB601B /* UIColor */,
+				774BC6371DD01F9C00FB601B /* UIFont */,
+				774BC63A1DD01F9C00FB601B /* UIImage */,
+				774BC63D1DD01F9C00FB601B /* UILabel */,
+				774BC63E1DD01F9C00FB601B /* UITextField */,
 			);
 			path = HCComponents;
 			sourceTree = "<group>";
@@ -155,42 +230,6 @@
 				774BFB041DB99CF2003FBC8B /* ViewController.m */,
 			);
 			path = HCComponentsExample;
-			sourceTree = "<group>";
-		};
-		774BFB0C1DB99CFA003FBC8B /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				774BFB0E1DB99D0C003FBC8B /* UIColor+HCComponents.h */,
-				774BFB0F1DB99D0C003FBC8B /* UIColor+HCComponents.m */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		774BFB0D1DB99CFA003FBC8B /* UIFont */ = {
-			isa = PBXGroup;
-			children = (
-				774BFB111DB99D1B003FBC8B /* UIFont+HCComponents.h */,
-				774BFB121DB99D1B003FBC8B /* UIFont+HCComponents.m */,
-			);
-			path = UIFont;
-			sourceTree = "<group>";
-		};
-		774BFB141DB9A01E003FBC8B /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				774BFB151DB9A02E003FBC8B /* UIImage+HCComponents.h */,
-				774BFB161DB9A02E003FBC8B /* UIImage+HCComponents.m */,
-			);
-			path = UIImage;
-			sourceTree = "<group>";
-		};
-		774BFB1E1DB9B5C4003FBC8B /* NSBundle */ = {
-			isa = PBXGroup;
-			children = (
-				774BFB1F1DB9B5D1003FBC8B /* NSBundle+HCComponents.h */,
-				774BFB201DB9B5D1003FBC8B /* NSBundle+HCComponents.m */,
-			);
-			path = NSBundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,12 +369,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774BC64B1DD021A500FB601B /* UIButton+HCComponents.m in Sources */,
+				774BC6481DD0215300FB601B /* UILabel+HCComponents.m in Sources */,
+				774BC6451DD01FAC00FB601B /* UITextField+HCComponents.m in Sources */,
 				774BFB0B1DB99CF2003FBC8B /* ViewController.m in Sources */,
+				774BC6421DD01F9C00FB601B /* UIImage+HCComponents.m in Sources */,
+				774BC63F1DD01F9C00FB601B /* NSBundle+HCComponents.m in Sources */,
+				774BC6401DD01F9C00FB601B /* UIColor+HCComponents.m in Sources */,
+				774BC6411DD01F9C00FB601B /* UIFont+HCComponents.m in Sources */,
 				774BFB0A1DB99CF2003FBC8B /* main.m in Sources */,
-				774BFB101DB99D0C003FBC8B /* UIColor+HCComponents.m in Sources */,
-				774BFB131DB99D1B003FBC8B /* UIFont+HCComponents.m in Sources */,
-				774BFB211DB9B5D1003FBC8B /* NSBundle+HCComponents.m in Sources */,
-				774BFB171DB9A02E003FBC8B /* UIImage+HCComponents.m in Sources */,
 				774BFB051DB99CF2003FBC8B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +616,7 @@
 				774BFAF21DB99CB4003FBC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		774BFAF31DB99CB4003FBC8B /* Build configuration list for PBXNativeTarget "HCComponentsTests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +625,7 @@
 				774BFAF51DB99CB4003FBC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		774BFAF61DB99CB4003FBC8B /* Build configuration list for PBXNativeTarget "HCComponentsUITests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +634,7 @@
 				774BFAF81DB99CB4003FBC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
