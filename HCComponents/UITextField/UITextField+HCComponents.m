@@ -17,12 +17,12 @@
 - (void)hc_setAppearanceFont:(UIFont *)font UI_APPEARANCE_SELECTOR {
     self.font = font;
     
-    CGFloat placeholderFontSize = roundf(font.pointSize * 0.7f);
-    
     if (self.attributedPlaceholder) {
         NSMutableAttributedString *mAttributedPlaceholder = self.attributedPlaceholder.mutableCopy;
         
         [mAttributedPlaceholder beginEditing];
+        
+        CGFloat placeholderFontSize = self.font.pointSize;
         
         NSRange range;
         UIFont *existingPlaceholderFont = [self.attributedPlaceholder attribute:NSFontAttributeName atIndex:0 effectiveRange:&range];
@@ -41,6 +41,13 @@
     
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wundeclared-selector"
+    
+    CGFloat placeholderFontSize = roundf(font.pointSize * 0.7f);
+    
+    if ([self respondsToSelector:@selector(floatingLabelFont)]) {
+        UIFont *floatingLabelFont = [self performSelector:@selector(floatingLabelFont)];
+        placeholderFontSize = floatingLabelFont.pointSize;
+    }
     
     if ([self respondsToSelector:@selector(setFloatingLabelFont:)]) {
         [self performSelector:@selector(setFloatingLabelFont:) withObject:[UIFont fontWithName:font.fontName size:placeholderFontSize]];
