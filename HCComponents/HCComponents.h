@@ -14,10 +14,10 @@ FOUNDATION_EXPORT double HCComponentsVersionNumber;
 //! Project version string for HCComponents.
 FOUNDATION_EXPORT const unsigned char HCComponentsVersionString[];
 
-#import "NSBundle.h"
-#import "UIButton.h"
-#import "UIColor.h"
-#import "UIFont.h"
-#import "UIImage.h"
-#import "UILabel.h"
-#import "UITextField.h"
+#import "NSBundle+HCComponents.h"
+#import "UIButton+HCComponents.h"
+#import "UIColor+HCComponents.h"
+#import "UIFont+HCComponents.h"
+#import "UIImage+HCComponents.h"
+#import "UILabel+HCComponents.h"
+#import "UITextField+HCComponents.h"
