@@ -14,6 +14,7 @@
 		774BC6451DD01FAC00FB601B /* UITextField+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC6441DD01FAC00FB601B /* UITextField+HCComponents.m */; };
 		774BC6481DD0215300FB601B /* UILabel+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC6471DD0215300FB601B /* UILabel+HCComponents.m */; };
 		774BC64B1DD021A500FB601B /* UIButton+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC64A1DD021A500FB601B /* UIButton+HCComponents.m */; };
+		774BC6521DD023B400FB601B /* NSString+HCComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BC6511DD023B400FB601B /* NSString+HCComponents.m */; };
 		774BFAE11DB99CB4003FBC8B /* HCComponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFAE01DB99CB4003FBC8B /* HCComponentsTests.m */; };
 		774BFAEC1DB99CB4003FBC8B /* HCComponentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFAEB1DB99CB4003FBC8B /* HCComponentsUITests.m */; };
 		774BFB051DB99CF2003FBC8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFAFB1DB99CF2003FBC8B /* AppDelegate.m */; };
@@ -58,6 +59,8 @@
 		774BC6491DD021A500FB601B /* UIButton+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HCComponents.h"; sourceTree = "<group>"; };
 		774BC64A1DD021A500FB601B /* UIButton+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HCComponents.m"; sourceTree = "<group>"; };
 		774BC64C1DD0226C00FB601B /* HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCComponents.h; sourceTree = "<group>"; };
+		774BC6501DD023B400FB601B /* NSString+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HCComponents.h"; sourceTree = "<group>"; };
+		774BC6511DD023B400FB601B /* NSString+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HCComponents.m"; sourceTree = "<group>"; };
 		774BFAC31DB99CB4003FBC8B /* HCComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BFADC1DB99CB4003FBC8B /* HCComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BFAE01DB99CB4003FBC8B /* HCComponentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCComponentsTests.m; sourceTree = "<group>"; };
@@ -164,6 +167,15 @@
 			path = UITextField;
 			sourceTree = "<group>";
 		};
+		774BC64F1DD023A700FB601B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				774BC6501DD023B400FB601B /* NSString+HCComponents.h */,
+				774BC6511DD023B400FB601B /* NSString+HCComponents.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		774BFABA1DB99CB4003FBC8B = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +202,7 @@
 			children = (
 				774BC64C1DD0226C00FB601B /* HCComponents.h */,
 				774BC6301DD01F9C00FB601B /* NSBundle */,
+				774BC64F1DD023A700FB601B /* NSString */,
 				774BC6331DD01F9C00FB601B /* UIButton */,
 				774BC6341DD01F9C00FB601B /* UIColor */,
 				774BC6371DD01F9C00FB601B /* UIFont */,
@@ -378,6 +391,7 @@
 				774BC6421DD01F9C00FB601B /* UIImage+HCComponents.m in Sources */,
 				774BC63F1DD01F9C00FB601B /* NSBundle+HCComponents.m in Sources */,
 				774BC6401DD01F9C00FB601B /* UIColor+HCComponents.m in Sources */,
+				774BC6521DD023B400FB601B /* NSString+HCComponents.m in Sources */,
 				774BC6411DD01F9C00FB601B /* UIFont+HCComponents.m in Sources */,
 				774BFB0A1DB99CF2003FBC8B /* main.m in Sources */,
 				774BFB051DB99CF2003FBC8B /* AppDelegate.m in Sources */,
