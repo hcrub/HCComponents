@@ -57,6 +57,7 @@
 		774BC6471DD0215300FB601B /* UILabel+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HCComponents.m"; sourceTree = "<group>"; };
 		774BC6491DD021A500FB601B /* UIButton+HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HCComponents.h"; sourceTree = "<group>"; };
 		774BC64A1DD021A500FB601B /* UIButton+HCComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HCComponents.m"; sourceTree = "<group>"; };
+		774BC64C1DD0226C00FB601B /* HCComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCComponents.h; sourceTree = "<group>"; };
 		774BFAC31DB99CB4003FBC8B /* HCComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BFADC1DB99CB4003FBC8B /* HCComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BFAE01DB99CB4003FBC8B /* HCComponentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCComponentsTests.m; sourceTree = "<group>"; };
@@ -187,6 +188,7 @@
 		774BFAC51DB99CB4003FBC8B /* HCComponents */ = {
 			isa = PBXGroup;
 			children = (
+				774BC64C1DD0226C00FB601B /* HCComponents.h */,
 				774BC6301DD01F9C00FB601B /* NSBundle */,
 				774BC6331DD01F9C00FB601B /* UIButton */,
 				774BC6341DD01F9C00FB601B /* UIColor */,
